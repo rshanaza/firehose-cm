@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Ruda);
+
+.ice-box {
+box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+background-color: rgba(36,32,33,0.50);
+padding: 1%;
+color: white;
+}
+
+.awesome-sauce {
+font-family: 'Ruda', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 48px;
+}
+
+h2 {
+	font-family: 'Ruda', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+}
+
+body {
+	background: url('photocamera.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
