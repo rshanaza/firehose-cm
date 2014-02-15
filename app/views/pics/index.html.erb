@@ -1,0 +1,16 @@
+
+<% @pics.each do |pic| %>
+	<div class="ice-box span4 text-center">
+		
+		<h2>
+		<u>
+			<%= pic.title %>
+		</u>
+		</h2>
+			<%= pic.message %>	
+		<br/>
+			<%= pic.who %>
+	</div>
+<% end %>
+
+
