@@ -1,9 +1,12 @@
-<div class="ice-box">
+<div class="ice-box span6 offset3 text-center">
+<h1 class ="awesome_sauce">
+	Share your Star Trek Gif
+</h1>
 	<%= simple_form_for @pic do |f| %>
-		<%= f.input :title %>
-		<%= f.input :message %>
-		<%= f.input :who %>
+		<%= f.input :title, label: 'Enter your Title', placeholder: 'e.g. Riker Claps, Borg is Cool' %>
+		<%= f.input :message, label: 'Commentary', placeholder: 'Pizza madness, you rock, OMG!' %>
+		<%= f.input :who, label: 'Who is this?', placeholder: 'Riker, Picard' %>
 
-		<%= f.submit "Save" %>
+		<%= f.submit "Save", :class => 'btn btn-warning' %>
 	<% end %>
 </div>
