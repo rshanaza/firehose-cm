@@ -4,9 +4,12 @@
 </h1>
 	<%= simple_form_for @pic do |f| %>
 		<%= f.input :title, label: 'Enter your Title', placeholder: 'e.g. Riker Claps, Borg is Cool' %>
+
 		<%= f.input :message, label: 'Commentary', placeholder: 'Pizza madness, you rock, OMG!' %>
 		<%= f.input :who, label: 'Who is this?', placeholder: 'Riker, Picard' %>
-
+		<BR />
+		<%= f.input :image, label: 'Upload a picture' %>	
+		<BR />
 		<%= f.submit "Save", :class => 'btn btn-warning' %>
 	<% end %>
 </div>
